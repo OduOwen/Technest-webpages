@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technest</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white overflow-x-hidden">
+
+<!-- ============ NAV + HERO (from index.html) ============ -->
+<div class="bg-[#061a33] text-white">
+    <nav class="flex flex-wrap items-center justify-between px-5 sm:px-10 lg:px-20 py-4">
+       
+        <div>
+            <h1 class="text-xl font-bold">Technest</h1>
+            <p class="text-xs">Build.Innovate.Grow</p>
+        </div>
+
+        <!-- mobile menu toggle (hidden on large screens) -->
+        <button id="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" class="lg:hidden p-2 rounded border border-white/30">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+
+        <div id="nav-links" class="hidden w-full flex-col gap-4 pt-4 text-xs lg:flex lg:w-auto lg:flex-row lg:items-center lg:gap-8 lg:pt-0">
+            <a href="#home" class="border-b-2 border-blue-500 pb-2 self-start lg:self-auto">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#why-us">Portfolio</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="">Contact</a>
+        
+        </div>
+
+        <button id="nav-cta" class="hidden mt-4 lg:mt-0 lg:block px-5 py-2 rounded-full bg-blue-500 text-sm">Get Strated</button>
+
+    </nav>
+    
+<section id="home" class="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 px-5 sm:px-10 lg:px-20 py-12 sm:py-16 lg:py-24 bg-[#061a33] text-white">
+
+    <div>
+        <p class="text-sm">Your partner in digital transformation</p>
+
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold">
+            Modern IT solutions for a
+            <span class="text-blue-500">Smarter Tomorrow</span>
+        </h1>
+
+        <p class="text-sm max-w-xl mt-6">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Eligendi enim unde nesciunt explicabo facilis debitis recusandae
+            ea rerum adipisci accusamus accusantium dolores error, voluptate
+            aspernatur ex dignissimos earum quas a!
+        </p>
+
+        <div class="flex flex-wrap gap-4 mt-8">
+            <button class="px-6 py-2 rounded-full bg-blue-500">
+                Get Started
+            </button>
+
+            <button class="px-6 py-2 rounded-full bg-[#061a33] border border-brand">
+                Our services
+            </button>
+        </div>
+    </div>
+    <div>
+        <img
+            src="images/burst-kUqqaRjJuw0-unsplash.jpg"
+            alt="Technology"
+            class="w-full h-64 sm:h-80 lg:h-full object-cover"
+        >
+    </div>
+    
+
+</section>
+
+    <div><header></header></div>
+</div>
+
+<!-- ============ SERVICES (from services.html) ============ -->
+<div id="services" class="bg-white px-5 sm:px-10 py-12 lg:py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-8 lg:mt-[90px]">
+
+  <div>
+  <p class="text-xs uppercase text-brand text-blue-500 fon">What we do</p>
+  <h2 class="mt-2 text-3xl sm:text-4xl lg:text-5xl font-bold text-[#061a33]">Our Services</h2>
+  <p class="mt-3 text-[15px] text-slate-500">
+    We offer a full range of IT services to help you build, scale, and maintain your digital presence.
+  </p>
+  <button class="bg-white border border-blue-500 text-blue-500 rounded-full p-3 mt-6 lg:mt-[90px]">Explore all services</button>
+  </div>
+  
+  <div class="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-6 2xl:gap-[80px] mt-0 lg:mt-[50px]">
+    <div class="rounded-xl p-8 shadow-md min-h-[300px] w-full 2xl:max-w-[210px]">
+     <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-brand">
+    </div>
+      <h3 class="font-semibold text-[#061a33]">Custom Software Development</h3>
+        <p class="mt-2 text-xs text-slate-500">Tailored solutions for your unique business needs.</p>
+    </div>
+
+   
+    <div class="rounded-xl p-8 shadow-md min-h-[300px] w-full 2xl:max-w-[210px]">
+      <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-brand"></div>
+      <h3 class="font-semibold text-[#061a33]">Cloud Solutions</h3>
+      <p class="mt-2 text-xs text-slate-500">Scalable, secure and cost-effective cloud infrastructure.</p>
+    </div>
+
+    <div class="rounded-xl p-8 shadow-md min-h-[300px] w-full 2xl:max-w-[210px]">
+      <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-brand"></div>
+      <h3 class="font-semibold text-[#061a33]">Web &amp; Mobile Apps</h3>
+      <p class="mt-2 text-xs text-slate-500">Beautiful, fast and user-friendly applications for all devices.</p>
+    </div>
+
+   
+    <div class="rounded-xl p-8 shadow-md min-h-[300px] w-full 2xl:max-w-[210px]">
+      <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-blue-50 text-brand"></div>
+      <h3 class="font-semibold text-[#061a33]">IT Consulting</h3>
+      <p class="mt-2 text-xs text-slate-500">Strategic advice to help you make better tech decisions.</p>
+    </div>
+
+  </div>
+    </div>
+
+    
+</div>
+
+<!-- ============ ABOUT (from about.html) ============ -->
+<div id="about" class="bg-[#f3f7fd] px-5 sm:px-10 py-12 lg:py-16">
+  <div class="grid grid-cols-1 xl:grid-cols-6 items-center gap-8 mt-8 lg:mt-[90px]">
+
+   
+    <div class="xl:col-span-2">
+      <p class="text-[15px] uppercase text-brand text-blue-500">About TechNest</p>
+      <h2 class="mt-2 text-3xl sm:text-4xl xl:text-[40px] font-bold text-[#061a33]">Innovative Minds. Reliable Solutions.</h2>
+      <p class="mt-3 text-sm text-slate-500">
+        TechNest is a forward-thinking IT company focused on building innovative and scalable technology solutions for businesses of all sizes.
+      </p>
+      <button href="#" class="mt-6 inline-block rounded-full border border-brand px-5 py-2 text-sm text-brand text-blue-500 border border-blue-500">
+        Learn More 
+      </button>
+    </div>
+
+    <!-- photo -->
+    <img src="images/arlington-research-Kz8nHVg_tGI-unsplash.jpg" alt="Our team"
+         class="w-full max-w-full h-[220px] sm:h-[300px] xl:h-[350px] xl:w-[500px] rounded-xl object-cover xl:col-span-3" />
+
+    <!--card -->
+    <div class="rounded-xl bg-white p-6 shadow-md space-y-6 w-full xl:w-[200px] xl:h-[350px] xl:col-span-1">
+
+      <div >
+        <div class="flex mt-3">
+        <div class="mb-4 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-blue-50 text-brand"></div>
+        <p class="text-2xl font-bold text-[#061a33]">100+</p>
+         <p class="text-xs text-slate-500">Happy Clients</p>
+      </div>
+      </div>
+      <div>
+        <div class="flex mt-3">
+        <div class="mb-4 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-50 text-brand"></div>
+        <p class="text-2xl font-bold text-[#061a33]">50+</p>
+        <p class="text-xs text-slate-500">Projects Delivered</p>
+      </div>
+      </div>
+
+      <div>
+        <div class="flex mt-3">
+        <div class="mb-4 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-50 text-brand"></div>
+        <p class="text-2xl font-bold text-[#061a33]">5+</p>
+        <p class="text-xs text-slate-500">Years of Experience</p>
+      </div>
+      </div>
+  </div>
+</div>
+    
+</div>
+
+<!-- ============ WHY US (from why-us.html) ============ -->
+<div id="why-us" class="bg-[#061a33] px-5 sm:px-10 py-12 lg:py-16 text-white">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-8 lg:mt-[90px]">
+
+    <!-- text -->
+    <div>
+      <p class="text-[15px] uppercase text-brand text-blue-500">Why choose us</p>
+      <h2 class="mt-2 text-3xl sm:text-4xl lg:text-[40px] font-bold">We Build More Than Software. <br>We Build Partnerships.</h2>
+      <p class="mt-3 text-sm text-slate-300">
+        Our team is committed to your success. We bring creativity, reliability, and technical excellence to every project.
+     ensuring you get solutions that deliver real longterm value. </p>
+      <button href="#" class="mt-6 inline-block rounded-full bg-brand px-5 py-2 text-sm bg-blue-500 text-white">
+        Get in Touch 
+      </button>
+    </div>
+
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+      
+      <div class="flex gap-4">
+        
+        <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white/10"></div>
+        <div>
+          <h3 class="font-semibold">On-Time Delivery</h3>
+          <p class="mt-1 text-xs text-slate-300">We respect your time and deliver as promised.</p>
+        </div>
+      </div>
+
+      <div class="flex gap-4">
+        <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white/10"></div>
+        <div>
+          <h3 class="font-semibold">Top-Notch Security</h3>
+          <p class="mt-1 text-xs text-slate-300">Your data and systems are always protected.</p>
+        </div>
+      </div>
+
+      <div class="flex gap-4">
+        <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white/10"></div>
+        <div>
+          <h3 class="font-semibold">Expert Team</h3>
+          <p class="mt-1 text-xs text-slate-300">Skilled professionals with proven experience.</p>
+        </div>
+      </div>
+
+      <div class="flex gap-4">
+        <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white/10"></div>
+        <div>
+          <h3 class="font-semibold">Ongoing Support</h3>
+          <p class="mt-1 text-xs text-slate-300">We're here even after your project goes live.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ============ TESTIMONIALS (from testimonial.html) ============ -->
+<div id="testimonials" class="bg-white px-5 sm:px-10 py-12 lg:py-16">
+
+  <p class="text-[15px] uppercase text-brand text-blue-500">Testimonials</p>
+  <h2 class="mt-2 text-3xl sm:text-4xl lg:text-[50px] font-bold text-[#061a33]">What Our Clients Say</h2>
+
+  
+  <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-[20px]">
+
+    <!-- CARDS-->
+    <div class="rounded-xl p-6 shadow-md">
+      <p class="text-sm text-slate-600">
+        "TechNest delivered our e-commerce platform on time and exceeded our expectations. Their team is professional, responsive and truly understands business needs."
+      </p>
+
+     
+      <div class="mt-5 flex items-center gap-3">
+      <img src="images/philip-martin-5aGUyCW_PJw-unsplash.jpg" class="h-10 w-10 shrink-0 rounded-full">
+        <div>
+          <p class="text-xs font-semibold text-[#061a33]">Emmanuel Okoro</p>
+          <p class="text-xs text-slate-500">CEO, GreenMatr</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-xl p-6 shadow-md">
+      <p class="text-sm text-slate-600">
+        "Working with TechNest has been a game-changer for our business. Their cloud solution is reliable, scalable and has significantly improved our operational efficiency."
+      </p>
+      <div class="mt-5 flex items-center gap-3">
+      <img src="images/wellington-ferreira-72TE8cWKXRY-unsplash.jpg" class="h-10 w-10 shrink-0 rounded-full">
+        <div>
+          <p class="text-xs font-semibold text-[#061a33]">Amina Yusuf</p>
+          <p class="text-xs text-slate-500">CTO, NovaTech</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="rounded-xl p-6 shadow-md">
+      <p class="text-sm text-slate-600">
+        "The team at TechNest is simply amazing. They turned our idea into a beautiful, functional app and guided us at every step of the way."
+      </p>
+      <div class="mt-5 flex items-center gap-3">
+        <img src="images/rachel-mcdermott-0fN7Fxv1eWA-unsplash.jpg" class="h-10 w-10 shrink-0 rounded-full">
+        <div>
+          <p class="text-xs font-semibold text-[#061a33]">David Adeyemi</p>
+          <p class="text-xs text-slate-500">Founder, FitLife</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- Footer-->
+
+<footer class="bg-[#061a33] px-5 sm:px-10 pt-12 text-sm text-slate-300">
+
+  
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+    
+    <div>
+      <p class="text-xl font-bold text-white">TechNest</p>
+      <p class="mt-3 text-xs">We help businesses turn ideas into powerful digital solutions.</p>
+    </div>
+
+    
+    <div>
+      
+      <h4 class="mb-3 font-semibold text-white">Quick Links</h4>
+      
+        <li>Home</li>
+        <li>Services</li>
+        <li>About</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    
+    <div>
+      <h4 class="mb-3 font-semibold text-white">Services</h4>
+      <ul class="space-y-2 text-xs">
+        <li>Custom Software Development</li>
+        <li>Cloud Solutions</li>
+        <li>Web &amp; Mobile Apps</li>
+        <li>IT Consulting</li>
+      </ul>
+    </div>
+
+    
+    <div>
+      <h4 class="mb-3 font-semibold text-white">Get In Touch</h4>
+      <ul class="space-y-2 text-xs">
+        <li>hello@technest.com</li>
+        <li>+234 801 234 5678</li>
+        <li>Lagos, Nigeria</li>
+      </ul>
+    </div>
+
+  </div>
+
+  
+  <div class="mt-10 flex flex-col gap-2 sm:flex-row sm:justify-between border-t border-white/10 py-5 text-xs">
+    <p>© 2025 TechNest. All rights reserved.</p>
+    <p>Privacy Policy &nbsp;|&nbsp; Terms of Service</p>
+  </div>
+
+</footer>
+
+
+
+</body>
+</html>
